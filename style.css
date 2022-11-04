@@ -964,7 +964,7 @@ filter: grayscale(0);
     .footer-bottom {
         height: 100%;
         width: 100%;
-        background-color: goldenrod;
+        background-color: #fe0000;
         display: flex;
         flex-wrap: wrap;
         align-items: center;

@@ -1,5 +1,5 @@
 // scroll animation
-const menuItens = document.querySelectorAll('#headeID nav ul li a[href^="#"]')
+const menuItens = document.querySelectorAll('#heade nav ul li a[href^="#"]')
 
 menuItens.forEach(item => {
     item.addEventListener('click', scrollToOnClick)
