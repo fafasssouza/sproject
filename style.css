@@ -388,6 +388,8 @@ a.active a.hover{
 }
 
 
+
+
 .about-second{
     width: 100%;
     min-height: 10 0vh;
@@ -586,101 +588,14 @@ a.active a.hover{
 }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .col{
         flex: 100%;
         max-width: 100%;
 }
-/* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
-
-/* Global */
-* {
-    box-sizing: border-box;
-    font-family: 'Cabin', sans-serif;
 }
 
-html, body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-header .navigation li{
-    list-style: none;
-    margin: 0 10px;
-
-}
-
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 100px;
-    z-index: 10;
-    background: #363636;
-
-    }
-header .navigation{
-    display: flex;
-    justify-content: center;
-    flex-direction: wrap;
-    margin: 10px 0;
-}
-header .navbar{
-    min-width: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
-}
-
-header .navigation li a{
-    position: relative;
-    text-decoration: none;
-    font-family: 'Cabin', sans-serif;
-    color: #a0a0a0;
-    font-size: 14px !important;
-    letter-spacing: 0.5px;
-    font-weight: 700;
-    padding: 0 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-header .navigation li a:after{
-    content: "";
-    position: absolute;
-    background-color: #fff;
-    height: 3px;
-    width: 100%;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.3s;
-}
-header .navigation li a:hover{
-    color: #fff;
-}
-
-header .navigation li a:hover::after{
-    width: 100%;
-}
-
-.main-image{
-    position: relative;
-    background: url(img/hero.jpg) no-repeat center;
-    background-size: cover;
-    height: 500px;
-    overflow: hidden;
-    animation: fadeInDown;
-    animation-duration: 2s;
-}
-
-/*Breaking new CT*/
+/*Breaking new*/
 .breaking-news-ct {
     background-color: #272727;
     width: 100%;
@@ -971,8 +886,8 @@ filter: grayscale(0);
     background: #363636;
 }
 
-/*@media (max-width: 600px) {
-    /*Slides mobile*
+@media (max-width: 600px) {
+    /*Slides mobile*/
     .slider {
         width: 100%;
     }
@@ -981,7 +896,7 @@ filter: grayscale(0);
         width: 100vw;
     }
 
-    /*Itinerary Mobile*
+    /*Itinerary Mobile*/
     .itinerary-class {
         height: 650px;
         background-color: white;
@@ -1002,7 +917,7 @@ filter: grayscale(0);
         border: none;
     }
 
-    /*Gallery Mobile*
+    /*Gallery Mobile*/
     .ga-contanier {
         height: 100%;
         padding-bottom: 25px;
@@ -1012,7 +927,7 @@ filter: grayscale(0);
         filter: grayscale(0);
      }
 
-     /*Maps Mobile
+     /*Maps Mobile*/
      .maps {
         flex-wrap: wrap;
      }
@@ -1022,7 +937,7 @@ filter: grayscale(0);
         padding-right: 0;
      }
 
-     /*footer MObile*
+     /*footer MObile*/
     .footer-top {
         flex-wrap: wrap;
         width: 100%; 
@@ -1055,4 +970,5 @@ filter: grayscale(0);
         align-items: center;
         justify-content: space-between;
     }
-}*/
+}
+
