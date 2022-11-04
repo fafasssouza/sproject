@@ -659,85 +659,40 @@ a.active a.hover{
 .slide h2:hover {
     font-size: 1.8rem;
 }
-/*Intinerary-class*/
-.itinerary-class {
-    padding-top: 25px;
-    height: 440px;
-    background: url(./img/ninja.jfif);
-    background-repeat: no-repeat;
-    background-size: 32%;
-    background-position: right;
+
+
+/*tentativa*/
+.it h2 {
+    text-align: center;
 }
 
-.it-contanier {
-    width: 85vw;
-    height: 400px;
+.it-table {
     margin: 0 auto;
-}
-.it-contanier h2 {
-    font-size: 2rem;
+    border-collapse: collapse;
 }
 
-.week-btn-div input {
-    display: none;
+.it-table tr {
+    text-align: left;
+    font-size: 0.9rem;
 }
 
-.label-week-btn {
-   display: flex;
-   justify-content: left;
-    margin-top: 25px;
+.white {
+    background-color: #c5c4c4;
+    color: #222;
 }
 
-.label-week-btn label:not(:last-child){
-    margin-right: 25px;
+.gray-row {
+    background-color: #707070;
+    color: #222;
 }
 
-.label-week-btn label {
-    cursor: pointer;
+.it-table tr th {
     text-transform: uppercase;
-    border: 2px solid #363636;
+}
+
+.it-table tr th ,.it-table tr td {
     padding: 10px;
-    font-size: 1.2rem;
-    transition: 0.2s ease-in-out;
-}
-
-.select {
-    background-color: #363636;
-    color: #fff;
-}
-
-
- .monday, .tuesday,
-.saturday {
-    display: none;
-    width:  400px;
-    height: 20vh;
-}
-
-.firstE {
-    display: block;
-}
-
-.monday ul li, .tuesday ul li,
-.saturday ul li {
-    font-size: 1.5em;
-}
-
-.monday ul , .tuesday ul , .saturday ul  {
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-}
-
-/*Promotion*/
-.bg-promotion {
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    border: 1px solid white;
 }
 
 /*Gallery*/
@@ -896,27 +851,17 @@ filter: grayscale(0);
         width: 100vw;
     }
 
-    /*Itinerary Mobile*/
-    .itinerary-class {
-        height: 650px;
-        background-color: white;
-        background: url(#);
-    }
 
-    .it-contanier {
-        width: 80vw;
-        height: 610px;
+    /*it-mobile*/
+    
+    .it-table tr {
+        text-align: left;
+        font-size: 0.5rem;
     }
-
-    .label-week-btn {
-        flex-direction: column;
-
+    
+    .it-table tr th ,.it-table tr td {
+        padding: 5px;
     }
-    .label-week-btn  label{
-        width: 85vw;
-        border: none;
-    }
-
     /*Gallery Mobile*/
     .ga-contanier {
         height: 100%;
